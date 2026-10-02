@@ -1,0 +1,24 @@
+# Local configuration may contain management URLs or other machine-specific values.
+/shell.json
+/*.local.json
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+
+# Editor, backup, and generated files.
+.idea/
+.vscode/
+.qmlls.ini
+.DS_Store
+*~
+*.swp
+*.swo
+*.bak
+*.bak.*
+__pycache__/
+node_modules/
+*.qmlc
+*.jsc

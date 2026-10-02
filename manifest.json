@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "tomstiani.netbird",
+  "name": "NetBird",
+  "version": "1.0.0",
+  "author": "Tom Stian Ingebretson",
+  "license": "MIT",
+  "description": "NetBird connection and peer status for cloud or self-hosted networks in the Omarchy bar.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "Panel.qml" },
+  "barWidget": {
+    "displayName": "NetBird",
+    "description": "Connect to NetBird, browse devices and proxies, and copy peer IPs from the bar.",
+    "category": "Network",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": { "managementUrl": "", "daemonAddress": "" },
+    "schema": [
+      { "key": "managementUrl", "type": "string", "label": "Management URL", "defaultValue": "", "description": "Optional self-hosted management server URL. Leave empty to use the NetBird profile or default server." },
+      { "key": "daemonAddress", "type": "string", "label": "Daemon address", "defaultValue": "", "description": "Optional custom NetBird daemon socket, e.g. unix:///run/netbird/default.sock. Leave empty for CLI discovery." }
+    ]
+  }
+}
