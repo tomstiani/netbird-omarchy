@@ -1,5 +1,3 @@
-<img width="580" height="737" alt="screenshot-2026-10-03_11-29-14" src="https://github.com/user-attachments/assets/9bd93baf-3afc-4606-93f0-acb37e7a1f89" />
-
 # NetBird for Omarchy
 
 **Your private network, one glance away.**
@@ -13,6 +11,8 @@ Bring your NetBird mesh into the Omarchy bar: see whether this machine is connec
 - **Bring your own network.** Works with NetBird Cloud or a self-hosted management server; no endpoint is baked into the plugin.
 
 > **Already using NetBird?** Install the widget, add it to the bar, and you're ready. It reads your existing local NetBird profile.
+
+<img width="580" height="737" alt="screenshot-2026-10-03_11-29-14" src="https://github.com/user-attachments/assets/9bd93baf-3afc-4606-93f0-acb37e7a1f89" />
 
 ## Quick guide
 
