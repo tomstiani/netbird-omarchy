@@ -1,3 +1,5 @@
+<img width="580" height="737" alt="screenshot-2026-10-03_11-29-14" src="https://github.com/user-attachments/assets/9bd93baf-3afc-4606-93f0-acb37e7a1f89" />
+
 # NetBird for Omarchy
 
 **Your private network, one glance away.**
